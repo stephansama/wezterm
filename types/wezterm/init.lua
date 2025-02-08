@@ -57,6 +57,7 @@
 ---@field strftime_utc fun(format: string): string Formats the current UTC date/time into a string using the Rust chrono strftime syntax.
 ---@field target_triple string This constant is set to the Rust target triple for the platform on which wezterm was built. This can be useful when you wish to conditionally adjust your configuration based on the platform.
 ---@field time TimeMod
+---@field serde Serde
 ---@field truncate_left fun(string: string, max_width: number): string Returns a copy of string that is no longer than max_width columns (as measured by wezterm.column_width). Truncation occurs by reemoving excess characters from the left end of the string.
 ---@field truncate_right fun(string: string, max_width: number): string Returns a copy of string that is no longer than max_width columns (as measured by wezterm.column_width). Truncation occurs by reemoving excess characters from the right end of the string.
 ---@field utf16_to_utf8 fun(string: string): string Overly specific and exists primarily to workaround this wsl.exe issue. It takes as input a string and attempts to convert it from utf16 to utf8.

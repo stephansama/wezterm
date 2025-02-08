@@ -9,6 +9,7 @@
 ---@field char_select_font_size f64
 ---@field char_select_fg_color RgbaColor
 ---@field char_select_bg_color RgbaColor
+---@field command_palette_rows f64
 ---@field command_palette_font_size f64
 ---@field command_palette_fg_color RgbaColor
 ---@field command_palette_bg_color RgbaColor
