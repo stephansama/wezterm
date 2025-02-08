@@ -1,4 +1,5 @@
 local M = {}
+
 local const = require("const")
 local get_colorscheme = require("utils").get_colorscheme
 

@@ -1,7 +1,8 @@
+local M = {}
+
 ---@type Wezterm
 local wezterm = require("wezterm")
 local HOME = wezterm.home_dir
-local M = {}
 
 M.BACKGROUND_BLUR = 10
 M.BACKGROUND_OPACITY = 0.9

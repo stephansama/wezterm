@@ -1,6 +1,6 @@
-local const = require("const")
-
 local M = {}
+
+local const = require("const")
 
 --- catppuccin theme
 ---@see catppuccin_documentation https://github.com/catppuccin/wezterm
