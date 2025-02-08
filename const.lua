@@ -9,16 +9,19 @@ M.BACKGROUND_OPACITY = 0.9
 M.FONT_NAME = "FiraCode Nerd Font Mono"
 M.FONT_SIZE = 23
 
+M.THEME_DARK = "Catppuccin Mocha"
+M.THEME_LIGHT = "Catppuccin Latte"
+
 M.INIT_SCRIPT = HOME .. "/.config/scripts/launch-tmux.sh"
 
 M.LAUNCH_MENU = {
-	{ label = "GitHub Dashboard", args = { "gh", "dash" } },
-	{ label = "GitHub Eco", args = { "gh", "eco" } },
-	{ label = "Lazy Docker", args = { "lazydocker" } },
-	{ label = "Lazy SQL", args = { "lazysql" } },
-	{ label = "Posting", args = { "posting" } },
-	{ label = "Ranger", args = { "ranger" } },
-	{ label = "TMUX", args = { "tmux" } },
+  { label = "GitHub Dashboard", args = { "gh", "dash" } },
+  { label = "GitHub Eco", args = { "gh", "eco" } },
+  { label = "Lazy Docker", args = { "lazydocker" } },
+  { label = "Lazy SQL", args = { "lazysql" } },
+  { label = "Posting", args = { "posting" } },
+  { label = "Ranger", args = { "ranger" } },
+  { label = "TMUX", args = { "tmux" } },
 }
 
 M.LEADER_KEY = { key = "b", mods = "CTRL", timeout_milliseconds = 10000 }
