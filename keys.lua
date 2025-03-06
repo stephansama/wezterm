@@ -8,8 +8,13 @@ local const = require("const")
 local launch_char_select = action.CharSelect({ copy_on_select = true, copy_to = "ClipboardAndPrimarySelection" })
 
 M.keys = {
-  -- { key = "l", mods = "ALT", action = launch_command_pallette },
-  -- { key = "s", mods = "CTRL", action = launch_char_select },
+  { key = "w", mods = "SUPER", action = action.CloseCurrentTab({ confirm = false }) },
+  { key = "v", mods = "SUPER", action = action.PasteFrom("Clipboard") },
+  { key = "c", mods = "SUPER", action = action.CopyTo("Clipboard") },
+  { key = "-", mods = "SUPER", action = action.DecreaseFontSize },
+  { key = "=", mods = "SUPER", action = action.IncreaseFontSize },
+  { key = "]", mods = "CMD|SHIFT", action = action.ToggleAlwaysOnTop },
+  { key = "f", mods = "SUPER|CTRL", action = action.ToggleFullScreen },
 }
 
 M.tmux_keys = {

@@ -6,6 +6,7 @@ local const = require("const")
 
 local config = wezterm.config_builder()
 
+config.disable_default_key_bindings = true
 config.default_gui_startup_args = { "start", "--", const.INIT_SCRIPT }
 config.hyperlink_rules = wezterm.default_hyperlink_rules()
 config.keys = keys.keys
