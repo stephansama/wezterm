@@ -8,6 +8,8 @@ configuration for [`WezTerm`](https://wezterm.org/) terminal
 
 </div>
 
+![screenshot](https://raw.githubusercontent.com/stephansama/static/refs/heads/main/images/wezterm.png)
+
 ## References
 
 - [`wezterm-types`](https://github.com/justinsgithub/wezterm-types) - Luadoc types for WezTerm API
