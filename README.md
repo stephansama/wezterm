@@ -17,6 +17,6 @@ configuration for [`WezTerm`](https://wezterm.org/) terminal
 
 <div align="center">
 
-Copyright © 2023-present [`@stephansama`](https://github.com/stephansama)
+Copyright © 2025-present [`@stephansama`](https://github.com/stephansama)
 
 </div>
